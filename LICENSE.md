@@ -7,6 +7,10 @@ Licensed under the *Creative Commons Attribution-ShareAlike 4.0 International Li
 ### OpenMoji Emojis
 Licensed under the *Creative Commons Attribution-ShareAlike 4.0 International License*.
 
-### Trackmania Logo
+### Discord
+
+*Discord* logo and it's brand belongs to *Discord Inc.*.
+
+### Trackmania
 
 *Trackmania* logo and it's brand belongs to *Ubisoft Nadeo*.
