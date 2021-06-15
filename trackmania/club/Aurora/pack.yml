@@ -1,0 +1,22 @@
+name: Aurora
+description: \"Trackmania Furs" club theme developed in June 2021
+authors:
+    - DergnNamedSkye
+    - ArkesTM
+license: CC-BY 4.0
+credits:
+    - Trackmania:
+        comment: Trackmania branding
+        link: www.trackmania.com/medias
+    - Comfortaa:
+        comment: Comfortaa font
+        link: fonts.google.com/specimen/Comfortaa
+        license: Open Font License
+    - Discord:
+        comment: Discord branding
+        link: discord.com/branding
+    - OpenMoji:
+        comment: OpenMoji emojis
+        license: CC BY-SA 4.0
+        link: openmoji.org
+        

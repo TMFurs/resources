@@ -1,0 +1,132 @@
+# Stucture Example
+---
+- `global/` — Community design assets for the whole infrastructure (website, resources, etc.)
+    - `Basic/` — Design pack
+        - `assets/` — Category folder
+            - `logo.webp` — Original file
+            - `banner.webp` — Original file
+            - `palette.png` — Original file
+            - `src/` — Source folder
+                - `logo.svg` — Source file
+                - `banner.svg` — Source file
+                - `palette.png` — Source file
+        - `extras/` — Category folder
+            - `header.svg` — Original and source file simultaneously
+            - `footer.svg` — Original and source file simultaneously
+        - `pack.yml` — Pack information
+- `trackmania/` — Everything related to *Trackmania* (*Next, 2020*) game
+    - `ads/` — Advertisement (signs) for banners and screens
+        - `community/` — Uncategorized members' uploads
+                - `Advertisement1x1/` — 1x1 ads
+                    - `Arkkis_GroupPhoto2020/` — Asset folder
+                        - `Arkkis_GroupPhoto2020.webp` — Original file
+                        - `Arkkis_GroupPhoto2020_src.xcf` — Source file
+                        - `desc.yml` — Asset information
+                - `Advertisement16x9/` — 16x9 ads
+                    - `Rollin_BestLOLMoments/` — Asset folder
+                        - `Rollin_BestLOLMoments.webm` — Original file
+                        - `Rollin_BestLOLMoments_src.zip` — Source file
+                        - `desc.yml` — Asset information
+            - `pack.yml` — Pack information
+        - `Trackmania_Exchange/` — Sign pack
+            - `Advertisement1x1/` — 1x1 ads
+                - `TurnLeft.webp` — Original file
+                - `TurnRight.webp` — Original file
+                - `Logo.webp` — Original file
+                - `src/` — Source folder
+                    - `TurnLeft.xcf` — Source file
+                    - `TurnRight.xcf` — Source file
+                    - `Logo.xcf` — Source file
+                    - `LogoBig.xcf` — Unfinished source file
+            - `Advertisement16x9` — 16x9 ads
+                - `Promo.webm` — Original file
+                - `Promo_src.zip` — Source file
+            - `pack.yml` — Pack information
+        - `...`
+    - `club/` — Club assets for the in-game Club feature
+        - `Basic/` — Club pack
+            - `activities/` — Category folder
+                - `news.webp` — Original file
+                - `maps.webp` — Original file
+                - `server.webp` — Original file
+                - `src/` — Source folder
+                    - `news.svg` — Source file
+                    - `maps.svg` — Source file
+                    - `server.svg` — Source file
+            - `decals/` — Category folder
+                - `1x1.webp` — Original file
+                - `4x1.webp` — Original file
+                - `src/` — Source folder
+                    - `1x1.svg` — Source file
+                    - `4x1.svg` — Source file
+            - `pack.yml` — Pack information
+    - `mods/` — Map mods for texture re-skinning
+        - `Stadium/` — Mods for the *Stadium* environment
+            - `community/` — Uncategorized members' uploads
+                - `Yama23_StaleBlue/` — Mod folder
+                    - `thumbnail.webp` — Mod thumbnail
+                    - `Yama23_StaleBlue.zip` - Original file
+                    - `Yama23_StaleBlue_src.zip` - Source file
+                    - `desc.yml` — Mod information
+                - `Reddd/` — Mod folder
+                    - `thumbnail.webp` — Mod thumbnail
+                    - `Reddd.zip` - Original file
+                    - `Reddd.zip` - Source file
+                    - `desc.yml` — Mod information
+                - `pack.yml` — Pack information
+            - `Quasar/` — Mod pack
+                - `VividBlue/` — Mod variation
+                    - `thumbnail.webp` — Mod thumbnail
+                    - `VividBlue.zip` — Original file
+                    - `desc.yml` — Mod information
+                - `Suffering/` — Mod variation
+                    - `thumbnail.webp` — Mod thumbnail
+                    - `Suffering.zip` — Original file
+                    - `desc.yml` — Mod information
+                - `LeafGreen/` — Mod variation
+                    - `thumbnail.webp` — Mod thumbnail
+                    - `LeafGreen.zip` — Original file
+                    - `desc.yml` — Mod information
+                - `src/` — Source folder
+                    - `Image/` — Mod textures source folder (can be omitted if `Icon` source doesn't exist, so you can move everything to the root level of `src/`)
+                        - `RoadBump_D.xcf` — Source file
+                        - `RoadIce_D.xcf` — Source file
+                        - `RoadTech_D.xcf` — Source file
+                    - `Icon.xcf` — Mod icon source file
+                - `pack.yml` — Pack information
+    - `skins/` — Car skins for available environments
+        - `CarSport/` — Skins for *CarSport* car
+            - `community/` — Uncategorized members' uploads
+                - `JustPink/` — Skin folder
+                    - `thumbnail.webp` — Skin thumbnail
+                    - `JustPink.zip` — Original file
+                    - `desc.yml` — Skin information
+                    - `src/` — Source folder
+                        - `Icon.xcf` — Skin icon source file
+                        - `Skin_B.xcf` — Skin base source file
+                        - `Skin_R.xcf` — Skin reflection source file
+                - `MetalCogSolid/` — Skin folder
+                    - `thumbnail.webp` — Skin thumbnail
+                    - `MetalCogSolid.zip` — Original file
+                    - `desc.yml` — Skin information
+                - `pack.yml` — Pack information
+
+# `pack.yml`
+---
+- `name: Borealis` — Name of the current pack (e.g. ads collection).
+- `description: Futuristic club theme with accent on a bright green color` — Short description about the pack.
+- `authors:` — Creator of the pack. Multiple authors are allowed.
+    - `RedLizard99` — Nickname is enough.
+    - `Skye Fentras` — Spaces (e.g. real names) are allowed.
+- `license: CC-BY 4.0` — License for the pack. Can be omitted if you want to retain full rights to your work. If you want other people to share and modify your work, choose *CC BY 4.0* license and don't forget to upload the source files.
+- `credits:` — Credits for the pack if you used other people's work.
+    - `Trackmania:` — Short name for the credited entry.
+        - `comment: Trackmania branding` — What is this credit about.
+        - `link: www.trackmania.com/medias` — Link to resources you have used.
+        
+# `desc.yml`
+---
+- `name: Stadium Perfection` — Name of the current asset (e.g. skin).
+- `description: Just a simple Stadium skin with lots of parallel lines` — Short description about the asset.
+- `author:` — Creator of the pack. Multiple authors are allowed.
+    - `Number69` — Nickname is enough. Spaces (e.g. real names) are allowed.

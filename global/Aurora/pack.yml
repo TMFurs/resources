@@ -1,0 +1,22 @@
+name: Aurora
+description: \"Trackmania Furs" global theme developed in June 2021
+authors:
+    - DergnNamedSkye
+license: CC-BY 4.0
+credits:
+    - Trackmania:
+        comment: Trackmania branding
+        link: www.trackmania.com/medias
+    - GitLab:
+        comment: GitLab logo
+        link: about.gitlab.com/press/press-kit
+    - Twitch:
+        comment: Twitch logo
+        link: brand.twitch.tv
+    - YouTube:
+        comment: YouTube logo
+        link: www.youtube.com/about/brand-resources
+    - OpenIconic:
+        comment: General icons
+        license: MIT License
+        link: useiconic.com
