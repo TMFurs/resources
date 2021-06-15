@@ -1,5 +1,5 @@
 # Stucture Example
----
+
 - `global/` — Community design assets for the whole infrastructure (website, resources, etc.)
     - `Basic/` — Design pack
         - `assets/` — Category folder
@@ -112,7 +112,7 @@
                 - `pack.yml` — Pack information
 
 # `pack.yml`
----
+
 - `name: Borealis` — Name of the current pack (e.g. ads collection).
 - `description: Futuristic club theme with accent on a bright green color` — Short description about the pack.
 - `authors:` — Creator of the pack. Multiple authors are allowed.
@@ -125,7 +125,7 @@
         - `link: www.trackmania.com/medias` — Link to resources you have used.
         
 # `desc.yml`
----
+
 - `name: Stadium Perfection` — Name of the current asset (e.g. skin).
 - `description: Just a simple Stadium skin with lots of parallel lines` — Short description about the asset.
 - `author:` — Creator of the pack. Multiple authors are allowed.
